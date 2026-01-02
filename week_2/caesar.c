@@ -8,7 +8,7 @@ bool digits(string s);
 
 int main(int argc, string argv[])
 {
-    // check argunment counts and the first character that is digit
+    // check argunment counts and the every character that is digit
     if (argc == 2 && digits(argv[1]) == 0)
     {
         string plaintext = get_string("plaintext: ");
